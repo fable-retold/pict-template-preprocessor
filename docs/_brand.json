@@ -1,0 +1,18 @@
+{
+	"Hash": "pict-template-preprocessor",
+	"Name": "Pict Template Preprocessor",
+	"Tagline": "Pict Template Preprocessor - compiles templates into cached segment arrays and builds expression dependency graphs",
+	"Palette": "mix",
+	"Icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\">\n\t\t<defs>\n\t\t\t<clipPath id=\"frame-pict-template-preprocessor-filled-light\">\n\t\t\t\t<path d=\"M 24 2\n\t\tH 72\n\t\tQ 94 2 94 24\n\t\tV 72\n\t\tQ 94 94 72 94\n\t\tH 24\n\t\tQ 2 94 2 72\n\t\tV 24\n\t\tQ 2 2 24 2 Z\"/>\n\t\t\t</clipPath>\n\t\t</defs>\n\t\t<path d=\"M 24 2\n\t\tH 72\n\t\tQ 94 2 94 24\n\t\tV 72\n\t\tQ 94 94 72 94\n\t\tH 24\n\t\tQ 2 94 2 72\n\t\tV 24\n\t\tQ 2 2 24 2 Z\" fill=\"#407acf\"/>\n\t\t<g clip-path=\"url(#frame-pict-template-preprocessor-filled-light)\"><circle cx=\"48\" cy=\"48\" r=\"14\" fill=\"rgba(255,255,255,0.18)\"/><path d=\"M 44.66 16.18 A 32 32 0 0 1 75.71 32.00\" fill=\"none\" stroke=\"rgba(255,255,255,0.18)\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M 77.23 61.02 A 32 32 0 0 1 48.00 80.00\" fill=\"none\" stroke=\"#e58149\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M 22.11 66.81 A 32 32 0 0 1 20.29 32.00\" fill=\"none\" stroke=\"rgba(255,255,255,0.18)\" stroke-width=\"6\" stroke-linecap=\"round\"/></g>\n\t\t<text x=\"48\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"central\"\n\t\t\tfont-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif\"\n\t\t\tfont-size=\"28\" font-weight=\"700\"\n\t\t\tfill=\"#ffffff\" letter-spacing=\"-1\">PTP</text>\n\t</svg>",
+	"IconType": "svg",
+	"Favicon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\">\n\t\t<defs>\n\t\t\t<clipPath id=\"fav-pict-template-preprocessor-light\">\n\t\t\t\t<path d=\"M 24 2\n\t\tH 72\n\t\tQ 94 2 94 24\n\t\tV 72\n\t\tQ 94 94 72 94\n\t\tH 24\n\t\tQ 2 94 2 72\n\t\tV 24\n\t\tQ 2 2 24 2 Z\"/>\n\t\t\t</clipPath>\n\t\t</defs>\n\t\t<path d=\"M 24 2\n\t\tH 72\n\t\tQ 94 2 94 24\n\t\tV 72\n\t\tQ 94 94 72 94\n\t\tH 24\n\t\tQ 2 94 2 72\n\t\tV 24\n\t\tQ 2 2 24 2 Z\" fill=\"#407acf\"/>\n\t\t<g clip-path=\"url(#fav-pict-template-preprocessor-light)\"><circle cx=\"48\" cy=\"48\" r=\"36\" fill=\"rgba(255,255,255,0.22)\"/></g>\n\t\t<text x=\"48\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"central\"\n\t\t\tfont-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif\"\n\t\t\tfont-size=\"60\" font-weight=\"800\"\n\t\t\tfill=\"#ffffff\" letter-spacing=\"-1\">P</text>\n\t</svg>",
+	"FaviconDark": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\">\n\t\t<defs>\n\t\t\t<clipPath id=\"fav-pict-template-preprocessor-dark\">\n\t\t\t\t<path d=\"M 24 2\n\t\tH 72\n\t\tQ 94 2 94 24\n\t\tV 72\n\t\tQ 94 94 72 94\n\t\tH 24\n\t\tQ 2 94 2 72\n\t\tV 24\n\t\tQ 2 2 24 2 Z\"/>\n\t\t\t</clipPath>\n\t\t</defs>\n\t\t<path d=\"M 24 2\n\t\tH 72\n\t\tQ 94 2 94 24\n\t\tV 72\n\t\tQ 94 94 72 94\n\t\tH 24\n\t\tQ 2 94 2 72\n\t\tV 24\n\t\tQ 2 2 24 2 Z\" fill=\"#8eaedd\"/>\n\t\t<g clip-path=\"url(#fav-pict-template-preprocessor-dark)\"><circle cx=\"48\" cy=\"48\" r=\"36\" fill=\"rgba(255,255,255,0.22)\"/></g>\n\t\t<text x=\"48\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"central\"\n\t\t\tfont-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif\"\n\t\t\tfont-size=\"60\" font-weight=\"800\"\n\t\t\tfill=\"#101418\" letter-spacing=\"-1\">P</text>\n\t</svg>",
+	"Colors": {
+		"Primary": "#407acf",
+		"Secondary": "#e58149",
+		"PrimaryLight": "#407acf",
+		"PrimaryDark": "#8eaedd",
+		"SecondaryLight": "#e58149",
+		"SecondaryDark": "#edba9d"
+	}
+}

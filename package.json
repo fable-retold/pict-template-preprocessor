@@ -21,9 +21,9 @@
 	},
 	"homepage": "https://github.com/stevenvelozo/pict-template-preprocessor#readme",
 	"devDependencies": {
-		"pict": "^1.0.348",
-		"pict-docuserve": "^0.1.5",
-		"quackage": "^1.1.0"
+		"pict": "^1.0.368",
+		"pict-docuserve": "^1.0.1",
+		"quackage": "^1.2.3"
 	},
 	"mocha": {
 		"diff": true,
