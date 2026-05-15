@@ -1,6 +1,6 @@
 {
 	"name": "pict-template-preprocessor",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"description": "Pict Template Preprocessor - compiles templates into cached segment arrays and builds expression dependency graphs",
 	"main": "source/Pict-Template-Preprocessor.js",
 	"scripts": {
@@ -22,7 +22,7 @@
 	"homepage": "https://github.com/stevenvelozo/pict-template-preprocessor#readme",
 	"devDependencies": {
 		"pict": "^1.0.368",
-		"pict-docuserve": "^1.0.1",
+		"pict-docuserve": "^1.3.0",
 		"quackage": "^1.2.3"
 	},
 	"mocha": {
