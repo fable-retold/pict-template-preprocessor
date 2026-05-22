@@ -1,64 +1,138 @@
 {
-	"Generated": "2026-04-10T17:26:31.561Z",
+	"Generated": "2026-05-22T05:46:48.250Z",
+	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
-	"Groups": [
-		{
-			"Name": "Dist",
-			"Key": "dist",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "indoctrinate_content_staging",
-					"Repo": "indoctrinate_content_staging",
-					"Group": "dist",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Docs",
-			"Key": "docs",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "api",
-					"Repo": "api",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"api/add-edge-classifier.md",
-						"api/classify-edges.md",
-						"api/clear-cache.md",
-						"api/clear.md",
-						"api/compile.md",
-						"api/execute-compiled-async.md",
-						"api/execute-compiled.md",
-						"api/prefetch-entities-for-set.md",
-						"api/template-graph.md",
-						"api/unwrap-template-functions.md"
-					]
-				},
-				{
-					"Name": "css",
-					"Repo": "css",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"css/docuserve.css"
-					]
-				}
-			]
-		}
-	]
+	"Module": {
+		"Name": "pict-template-preprocessor",
+		"Repo": "pict-template-preprocessor",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Introduction",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quickstart",
+						"Path": "quickstart.md"
+					}
+				]
+			},
+			{
+				"Title": "Design",
+				"Children": [
+					{
+						"Title": "Architecture & Internals",
+						"Path": "architecture.md"
+					},
+					{
+						"Title": "Implementation Reference",
+						"Path": "implementation-reference.md"
+					}
+				]
+			},
+			{
+				"Title": "API Reference",
+				"Children": [
+					{
+						"Title": "compile",
+						"Path": "api/compile.md"
+					},
+					{
+						"Title": "executeCompiled",
+						"Path": "api/execute-compiled.md"
+					},
+					{
+						"Title": "executeCompiledAsync",
+						"Path": "api/execute-compiled-async.md"
+					},
+					{
+						"Title": "classifyEdges",
+						"Path": "api/classify-edges.md"
+					},
+					{
+						"Title": "addEdgeClassifier",
+						"Path": "api/add-edge-classifier.md"
+					},
+					{
+						"Title": "prefetchEntitiesForSet",
+						"Path": "api/prefetch-entities-for-set.md"
+					},
+					{
+						"Title": "clearCache",
+						"Path": "api/clear-cache.md"
+					},
+					{
+						"Title": "clear",
+						"Path": "api/clear.md"
+					},
+					{
+						"Title": "unwrapTemplateFunctions",
+						"Path": "api/unwrap-template-functions.md"
+					},
+					{
+						"Title": "TemplateGraph",
+						"Path": "api/template-graph.md"
+					}
+				]
+			},
+			{
+				"Title": "Retold Ecosystem",
+				"Children": [
+					{
+						"Title": "Pict",
+						"Path": "pict/pict/README.md"
+					},
+					{
+						"Title": "Pict Template",
+						"Path": "pict/pict-template/README.md"
+					},
+					{
+						"Title": "Pict Template Audit",
+						"Path": "pict/pict-template-audit/README.md"
+					},
+					{
+						"Title": "Fable",
+						"Path": "fable/fable/README.md"
+					},
+					{
+						"Title": "Indoctrinate",
+						"Path": "utility/indoctrinate/README.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			".nojekyll",
+			"README.md",
+			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
+			"_topbar.md",
+			"_version.json",
+			"api/add-edge-classifier.md",
+			"api/classify-edges.md",
+			"api/clear-cache.md",
+			"api/clear.md",
+			"api/compile.md",
+			"api/execute-compiled-async.md",
+			"api/execute-compiled.md",
+			"api/prefetch-entities-for-set.md",
+			"api/template-graph.md",
+			"api/unwrap-template-functions.md",
+			"architecture.md",
+			"implementation-reference.md",
+			"index.html",
+			"quickstart.md",
+			"retold-catalog.json",
+			"retold-keyword-index.json"
+		]
+	},
+	"Groups": []
 }

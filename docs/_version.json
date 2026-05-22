@@ -1,7 +1,7 @@
 {
 	"Name": "pict-template-preprocessor",
-	"Version": "0.0.2",
+	"Version": "1.0.0",
 	"Description": "Pict Template Preprocessor - compiles templates into cached segment arrays and builds expression dependency graphs",
-	"GeneratedAt": "2026-04-10T17:26:31.830Z",
-	"GitCommit": "1ff1ed3"
+	"GeneratedAt": "2026-05-22T05:46:48.404Z",
+	"GitCommit": "2309e5c"
 }
