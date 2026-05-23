@@ -1,5 +1,7 @@
 # Pict Template Preprocessor
 
+> **[&#9654; Read the Pict-Template-Preprocessor Documentation](https://stevenvelozo.github.io/pict-template-preprocessor/)** &mdash; interactive docs with the full API reference.
+
 A compile-once, execute-many template optimizer for the Pict framework. Compiles template strings into cached segment arrays so the character-by-character trie walk only happens once per unique template, builds an expression dependency graph for visualization and analysis, and batch-prefetches entities at TemplateSet boundaries to eliminate N+1 fetch patterns.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

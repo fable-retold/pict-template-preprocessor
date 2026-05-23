@@ -23,8 +23,8 @@
 
 - Retold Ecosystem
 
-  - [Pict](/pict/pict/)
-  - [Pict Template](/pict/pict-template/)
-  - [Pict Template Audit](/pict/pict-template-audit/)
-  - [Fable](/fable/fable/)
-  - [Indoctrinate](/utility/indoctrinate/)
+  - [Pict](https://stevenvelozo.github.io/pict/)
+  - [Pict Template](https://stevenvelozo.github.io/pict-template/)
+  - [Pict Template Audit](https://stevenvelozo.github.io/pict-template-audit/)
+  - [Fable](https://stevenvelozo.github.io/fable/)
+  - [Indoctrinate](https://stevenvelozo.github.io/indoctrinate/)
