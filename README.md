@@ -1,6 +1,6 @@
 # Pict Template Preprocessor
 
-> **[&#9654; Read the Pict-Template-Preprocessor Documentation](https://stevenvelozo.github.io/pict-template-preprocessor/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Pict-Template-Preprocessor Documentation](https://fable-retold.github.io/pict-template-preprocessor/)** &mdash; interactive docs with the full API reference.
 
 A compile-once, execute-many template optimizer for the Pict framework. Compiles template strings into cached segment arrays so the character-by-character trie walk only happens once per unique template, builds an expression dependency graph for visualization and analysis, and batch-prefetches entities at TemplateSet boundaries to eliminate N+1 fetch patterns.
 
@@ -152,11 +152,11 @@ npm run coverage
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [pict-template](https://github.com/stevenvelozo/pict-template) - Template expression base class
-- [pict-template-audit](https://github.com/stevenvelozo/pict-template-audit) - Template performance auditing
-- [precedent](https://github.com/stevenvelozo/precedent) - Pattern trie engine used for template matching
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [pict-template](https://github.com/fable-retold/pict-template) - Template expression base class
+- [pict-template-audit](https://github.com/fable-retold/pict-template-audit) - Template performance auditing
+- [precedent](https://github.com/fable-retold/precedent) - Pattern trie engine used for template matching
+- [fable](https://github.com/fable-retold/fable) - Application services framework
 
 ## License
 

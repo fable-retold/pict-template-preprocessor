@@ -26,7 +26,7 @@ The preprocessor sits between Pict's public API and the MetaTemplate engine. On 
 
 ## How the Trie Works
 
-Pict's template engine uses [Precedent](https://github.com/stevenvelozo/precedent) to build a trie (prefix tree) from registered pattern delimiters. Every template expression type registers a start and end pattern pair.
+Pict's template engine uses [Precedent](https://github.com/fable-retold/precedent) to build a trie (prefix tree) from registered pattern delimiters. Every template expression type registers a start and end pattern pair.
 
 ### Pattern Registration
 
@@ -357,7 +357,7 @@ IDs are deduplicated across the dataset and checked against the EntityProvider c
 
 ## Interaction with Template Audit
 
-Both the preprocessor and [pict-template-audit](https://github.com/stevenvelozo/pict-template-audit) wrap Pict's template methods. If both are active, instantiation order matters:
+Both the preprocessor and [pict-template-audit](https://github.com/fable-retold/pict-template-audit) wrap Pict's template methods. If both are active, instantiation order matters:
 
 ```mermaid
 flowchart LR

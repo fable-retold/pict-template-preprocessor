@@ -8,4 +8,4 @@
 - **Transparent** -- Wraps Pict methods without modifying source; one instantiation activates optimization
 
 [Get Started](README.md)
-[GitHub](https://github.com/stevenvelozo/pict-template-preprocessor)
+[GitHub](https://github.com/fable-retold/pict-template-preprocessor)

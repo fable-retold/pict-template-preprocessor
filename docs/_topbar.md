@@ -4,4 +4,4 @@
 - [Quickstart](quickstart.md)
 - [Architecture](architecture.md)
 - [API Reference](api/compile.md)
-- [GitHub](https://github.com/stevenvelozo/pict-template-preprocessor)
+- [GitHub](https://github.com/fable-retold/pict-template-preprocessor)

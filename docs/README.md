@@ -56,8 +56,8 @@ Per-function documentation for all public methods:
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [pict-template](https://github.com/stevenvelozo/pict-template) - Template expression base class
-- [pict-template-audit](https://github.com/stevenvelozo/pict-template-audit) - Template performance auditing
-- [precedent](https://github.com/stevenvelozo/precedent) - Pattern trie engine used for template matching
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [pict-template](https://github.com/fable-retold/pict-template) - Template expression base class
+- [pict-template-audit](https://github.com/fable-retold/pict-template-audit) - Template performance auditing
+- [precedent](https://github.com/fable-retold/precedent) - Pattern trie engine used for template matching
+- [fable](https://github.com/fable-retold/fable) - Application services framework
