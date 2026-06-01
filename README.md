@@ -1,6 +1,6 @@
 # Pict Template Preprocessor
 
-> **[&#9654; Read the Pict-Template-Preprocessor Documentation](https://fable-retold.github.io/pict-template-preprocessor/)** &mdash; interactive docs with the full API reference.
+> **[Read the Pict-Template-Preprocessor Documentation](https://fable-retold.github.io/pict-template-preprocessor/)** - interactive docs with the full API reference.
 
 A compile-once, execute-many template optimizer for the Pict framework. Compiles template strings into cached segment arrays so the character-by-character trie walk only happens once per unique template, builds an expression dependency graph for visualization and analysis, and batch-prefetches entities at TemplateSet boundaries to eliminate N+1 fetch patterns.
 
