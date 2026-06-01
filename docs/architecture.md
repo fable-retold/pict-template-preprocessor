@@ -26,7 +26,7 @@ The preprocessor sits between Pict's public API and the MetaTemplate engine. On 
 
 ## How the Trie Works
 
-Pict's template engine uses [Precedent](https://github.com/fable-retold/precedent) to build a trie (prefix tree) from registered pattern delimiters. Every template expression type registers a start and end pattern pair.
+Pict's template engine uses [Precedent](https://fable-retold.github.io/precedent/) to build a trie (prefix tree) from registered pattern delimiters. Every template expression type registers a start and end pattern pair.
 
 ### Pattern Registration
 
