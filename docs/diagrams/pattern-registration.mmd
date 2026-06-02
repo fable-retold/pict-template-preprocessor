@@ -1,0 +1,25 @@
+graph LR
+    Root["{"] --> Tilde["~"]
+    Tilde --> D1["D"]
+    Tilde --> T1["T"]
+    Tilde --> E1["E"]
+
+    D1 --> Colon1[":"]
+    Colon1 --> LeafD["Leaf: Data\nParse: render()\nEnd: ~}"]
+
+    D1 --> a["a"]
+    a --> t["t"]
+    t --> a2["a"]
+    a2 --> Colon2[":"]
+    Colon2 --> LeafData["Leaf: Data (long)\nParse: render()\nEnd: ~}"]
+
+    T1 --> Colon3[":"]
+    Colon3 --> LeafT["Leaf: Template\nParse: render()\nEnd: ~}"]
+
+    E1 --> Colon4[":"]
+    Colon4 --> LeafE["Leaf: Entity\nParse: render()\nEnd: ~}"]
+
+    style LeafD fill:#ffd,stroke:#333
+    style LeafData fill:#ffd,stroke:#333
+    style LeafT fill:#ffd,stroke:#333
+    style LeafE fill:#ffd,stroke:#333

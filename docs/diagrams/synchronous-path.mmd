@@ -1,0 +1,8 @@
+flowchart LR
+    Segments["Segment Array"] --> Loop["For each segment"]
+    Loop --> Check{Type?}
+    Check -->|Literal| Concat["output += segment.Value"]
+    Check -->|Expression| Call["output += leaf.Parse(hash, data, ...)"]
+    Concat --> Loop
+    Call --> Loop
+    Loop --> Result["Return joined output"]

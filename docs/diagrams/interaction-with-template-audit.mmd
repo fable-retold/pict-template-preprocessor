@@ -1,0 +1,7 @@
+flowchart LR
+    App["parseTemplate()"] --> Audit["Audit Wrapper\n(timing, counting)"]
+    Audit --> Preprocessor["Preprocessor Wrapper\n(compile, cache, execute)"]
+    Preprocessor --> Original["Original Pict\nparseTemplate"]
+
+    style Audit fill:#ffd,stroke:#333
+    style Preprocessor fill:#dff,stroke:#333

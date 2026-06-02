@@ -1,0 +1,29 @@
+flowchart TD
+    Start["Start: empty segments[], literalBuffer"] --> Loop["For each character"]
+    Loop --> InMatch{In pattern\nmatch?}
+
+    InMatch -->|No| CheckRoot{Char in\ntrie root?}
+    CheckRoot -->|Yes| BeginMatch["Start pattern match\nrecord char in outputBuffer"]
+    CheckRoot -->|No| AppendLiteral["Append char to literalBuffer"]
+
+    InMatch -->|Yes| ContinueStart{Start pattern\ncomplete?}
+    ContinueStart -->|No, continues| AdvanceStart["Follow trie path\nrecord char"]
+    ContinueStart -->|No, breaks| FlushFailed["Flush outputBuffer to literalBuffer\nReset state"]
+    ContinueStart -->|Yes| CaptureContent["Capture content chars"]
+
+    CaptureContent --> CheckEnd{End pattern\nbegins?}
+    CheckEnd -->|No| CaptureContent
+    CheckEnd -->|Yes| MatchEnd{End pattern\ncomplete?}
+    MatchEnd -->|No| CaptureContent
+    MatchEnd -->|Yes| RecordExpr["Flush literalBuffer as Literal segment\nPush Expression segment\nReset state"]
+
+    AppendLiteral --> Loop
+    BeginMatch --> Loop
+    AdvanceStart --> Loop
+    FlushFailed --> Loop
+    RecordExpr --> Loop
+
+    Loop --> Done["Flush remaining literalBuffer\nReturn segments[]"]
+
+    style RecordExpr fill:#9f9,stroke:#333
+    style Done fill:#9f9,stroke:#333

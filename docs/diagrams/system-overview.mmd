@@ -1,0 +1,11 @@
+flowchart TD
+    A["pict.parseTemplate(string, data)"] --> B{Cached?}
+    B -->|No| C["compile(string, parseTree)"]
+    C --> D["Cache segment array"]
+    D --> E["classifyEdges(segments, source)"]
+    E --> F["executeCompiled(segments, data)"]
+    B -->|Yes| F
+    F --> G["Rendered output string"]
+
+    style C fill:#f9f,stroke:#333
+    style F fill:#9f9,stroke:#333

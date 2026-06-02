@@ -1,0 +1,22 @@
+graph TD
+    subgraph Nodes
+        T1["template:MainPage"]
+        T2["template:Header"]
+        T3["template:UserList"]
+        D1["data:Record.Title"]
+        D2["data:AppData.Theme"]
+        E1["entity:Author"]
+    end
+
+    T1 -->|renders| T2
+    T1 -->|renders-set| T3
+    T1 -->|reads| D1
+    T2 -->|reads| D2
+    T3 -->|reads-entity| E1
+
+    style T1 fill:#adf,stroke:#333
+    style T2 fill:#adf,stroke:#333
+    style T3 fill:#adf,stroke:#333
+    style D1 fill:#fda,stroke:#333
+    style D2 fill:#fda,stroke:#333
+    style E1 fill:#daf,stroke:#333

@@ -1,0 +1,14 @@
+flowchart TD
+    Segments["Segment Array"] --> Anticipate["Create Anticipate instance"]
+    Anticipate --> Schedule["For each segment, schedule a step"]
+
+    Schedule --> StepCheck{Type?}
+    StepCheck -->|Literal| StepLit["outputParts[i] = segment.Value\ncallback()"]
+    StepCheck -->|Expression, sync| StepSync["outputParts[i] = leaf.Parse(...)\ncallback()"]
+    StepCheck -->|Expression, async| StepAsync["leaf.ParseAsync(hash, data, (err, result) => {\n  outputParts[i] = result\n  callback()\n})"]
+
+    StepLit --> Wait
+    StepSync --> Wait
+    StepAsync --> Wait
+
+    Wait["anticipate.wait()"] --> Join["fCallback(null, outputParts.join(''))"]

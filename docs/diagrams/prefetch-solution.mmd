@@ -1,0 +1,31 @@
+sequenceDiagram
+    participant App as Application
+    participant PP as Preprocessor
+    participant EP as EntityProvider
+    participant API as REST API
+    participant TS as TemplateSet
+
+    App->>PP: parseTemplateSet(template, dataset, callback)
+
+    Note over PP: Prefetch Phase
+    PP->>PP: Scan template for {~E:~} expressions
+    PP->>PP: Follow {~T:~} and {~TIf:~} references one level deep
+    PP->>PP: Resolve IDs across dataset, deduplicate
+    PP->>PP: Check EntityProvider cache, filter cached IDs
+
+    PP->>EP: getEntitySet('Author', 'FBL~IDAuthor~INN~1,2,3')
+    EP->>API: GET /1.0/Authors/FilteredTo/FBL~IDAuthor~INN~1,2,3
+    API-->>EP: [{ IDAuthor: 1 }, { IDAuthor: 2 }, { IDAuthor: 3 }]
+    EP->>EP: Cache individual records
+
+    Note over PP: Iteration Phase
+    PP->>TS: Original parseTemplateSet(template, dataset, callback)
+
+    TS->>EP: getEntity('Author', 1)
+    Note over EP: Cache hit!
+    TS->>EP: getEntity('Author', 2)
+    Note over EP: Cache hit!
+    TS->>EP: getEntity('Author', 3)
+    Note over EP: Cache hit!
+
+    Note over App,API: 1 batch request instead of N

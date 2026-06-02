@@ -1,0 +1,5 @@
+flowchart LR
+    Segment["Expression Segment\nTag: '{~T:'\nHash: 'Header:Record'"] --> Lookup["Look up classifier\nfor '{~T:'"]
+    Lookup --> Classify["classifier('Header:Record')"]
+    Classify --> Edges["[{ EdgeType: 'renders',\n   NodeType: 'template',\n   NodeID: 'Header' }]"]
+    Edges --> Graph["graph.addEdge(\n  'template:Page',\n  'template:Header',\n  'renders')"]

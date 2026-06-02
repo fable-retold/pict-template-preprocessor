@@ -1,0 +1,6 @@
+graph TD
+    SetTemplate["Set Template\n{~T:BookRow:Record~}"] -->|follows reference| BookRow["BookRow Template\n{~D:Record.Title~}\n{~E:Author^Record.IDAuthor^AuthorName~}"]
+
+    BookRow -->|entity discovered| Plan["Prefetch Plan\nEntityType: Author\nIDAddress: Record.IDAuthor"]
+
+    style Plan fill:#9f9,stroke:#333

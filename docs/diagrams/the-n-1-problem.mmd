@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant TS as TemplateSet
+    participant EP as EntityProvider
+    participant API as REST API
+
+    TS->>EP: getEntity('Author', 1)
+    EP->>API: GET /1.0/Authors/1
+    API-->>EP: { IDAuthor: 1, Name: 'Alice' }
+
+    TS->>EP: getEntity('Author', 2)
+    EP->>API: GET /1.0/Authors/2
+    API-->>EP: { IDAuthor: 2, Name: 'Bob' }
+
+    TS->>EP: getEntity('Author', 3)
+    EP->>API: GET /1.0/Authors/3
+    API-->>EP: { IDAuthor: 3, Name: 'Carol' }
+
+    Note over TS,API: N records = N HTTP requests
