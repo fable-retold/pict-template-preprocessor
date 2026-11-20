@@ -1,6 +1,6 @@
 {
 	"name": "pict-template-preprocessor",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Pict Template Preprocessor - compiles templates into cached segment arrays and builds expression dependency graphs",
 	"main": "source/Pict-Template-Preprocessor.js",
 	"files": [
