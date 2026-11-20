@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "Pict Template Preprocessor - compiles templates into cached segment arrays and builds expression dependency graphs",
 	"main": "source/Pict-Template-Preprocessor.js",
+	"files": [
+		"source"
+	],
 	"scripts": {
 		"start": "node source/Pict-Template-Preprocessor.js",
 		"test": "npx quack test",
